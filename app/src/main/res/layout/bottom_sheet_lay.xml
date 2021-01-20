@@ -1,0 +1,159 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/bottom_sheet_bg"
+    android:orientation="vertical">
+
+    <TextView
+        android:textStyle="bold"
+        android:textColor="@color/colortext"
+        android:textAlignment="center"
+        android:text="My Demo"
+        android:padding="15dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal" />
+    <View
+        android:background="@color/purple_700"
+        android:layout_width="match_parent"
+        android:layout_marginBottom="10dp"
+        android:layout_height="1dp"/>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <ImageView
+            android:id="@+id/my_image"
+            android:layout_width="150dp"
+            android:layout_height="150dp"/>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:gravity="center_vertical"
+            android:orientation="vertical"
+            android:layout_marginEnd="10dp"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="10dp"
+            android:padding="15dp">
+            <TextView
+                android:id="@+id/txt_prname"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@color/colortext"
+                android:textSize="25sp" />
+
+            <TextView
+                android:id="@+id/txt_email"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Rs. 244"
+                android:textColor="#388E3C"
+                android:textSize="20sp"
+                />
+        </LinearLayout>
+    </LinearLayout>
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@color/purple_700"
+        android:layout_marginBottom="10dp"
+        android:layout_marginTop="10dp"/>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:background="?android:selectableItemBackground"
+        android:layout_height="wrap_content"
+        android:clickable="true"
+        android:focusable="true"
+        android:orientation="horizontal"
+        android:gravity="center_vertical"
+        android:padding="12dp">
+        <ImageView
+            android:src="@drawable/ic_baseline"
+
+            android:layout_width="30dp"
+            android:layout_height="30dp"/>
+
+        <TextView
+            android:id="@+id/textView3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="15dp"
+            android:layout_marginLeft="25dp"
+            android:text="Add To favorites"
+            android:textSize="15sp"
+            android:textColor="#00000F"
+            />
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:background="?android:selectableItemBackground"
+        android:layout_height="wrap_content"
+        android:clickable="true"
+        android:focusable="true"
+        android:orientation="horizontal"
+        android:gravity="center_vertical"
+        android:padding="12dp">
+        <ImageView
+            android:src="@drawable/ic_share"
+
+            android:layout_width="30dp"
+            android:layout_height="30dp"/>
+
+        <TextView
+
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="15dp"
+            android:layout_marginLeft="25dp"
+            android:text="Share via..."
+            android:textSize="15sp"
+            android:textColor="#00000F"
+            />
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:background="?android:selectableItemBackground"
+        android:layout_height="wrap_content"
+        android:clickable="true"
+        android:focusable="true"
+        android:orientation="horizontal"
+        android:gravity="center_vertical"
+        android:padding="12dp">
+        <ImageView
+
+            android:src="@drawable/ic_shopping_cart"
+            android:layout_width="30dp"
+            android:layout_height="30dp"/>
+
+        <TextView
+
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="15dp"
+            android:layout_marginLeft="25dp"
+            android:text="Add To Cart"
+            android:textSize="15sp"
+            android:textColor="#00000F"
+            />
+
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/btn_addtocart"
+        android:textColor="@android:color/white"
+        android:text="Confirm"
+        android:textStyle="bold"
+        android:layout_marginTop="20dp"
+        android:layout_marginStart="20dp"
+        android:background="@drawable/botton_bg"
+        android:layout_width="match_parent"
+        android:layout_marginEnd="20dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginBottom="15dp"/>
+
+
+</LinearLayout>
