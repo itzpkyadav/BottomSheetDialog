@@ -20,7 +20,6 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
     RecyclerView recyclerView;
     Button btn_prev, btn_next;
     TextView tv_no_data;
-    List<ProductList> productLists;
     UserList userList;
     int page_number = 1;
 
